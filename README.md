@@ -1,5 +1,7 @@
 # landify
 
+[Preview](https://landify-sage.vercel.app/)
+
 ## Project setup
 ```
 yarn install
