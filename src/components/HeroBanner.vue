@@ -52,6 +52,12 @@ export default {
     line-height: 1.5;
     margin-right: 45px;
     margin-bottom: 48px;
+
+    @media (min-width: 880px) {
+      font-weight: 800;
+      font-size: 72px;
+      line-height: 98px;
+    }
   }
 }
 </style>
