@@ -37,27 +37,21 @@ export default {
 <style>
 .hero-banner {
   display: flex;
-}
+  flex-direction: column;
 
-@media (max-width: 880px) {
-  .hero-banner {
-    flex-direction: column;
-  }
-
-  .hero-banner__content {
+  &__content {
     margin-bottom: 48px;
   }
-}
 
-@media (max-width: 650px) {
-  .hero-banner__header {
+  @media (min-width: 880px) {
+    flex-direction: row;
+  }
+
+  &__header {
     font-size: 48px;
     line-height: 1.5;
+    margin-right: 45px;
+    margin-bottom: 48px;
   }
-}
-
-.hero-banner__header {
-  margin-right: 45px;
-  margin-bottom: 48px;
 }
 </style>
