@@ -58,6 +58,10 @@ export default {
 .container__content {
   margin-left: 165px;
   margin-right: 165px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 1150px) {
